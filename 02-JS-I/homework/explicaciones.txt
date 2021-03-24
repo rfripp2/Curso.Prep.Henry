@@ -1,0 +1,5 @@
+-Variables : Son lugares donde almacenamos datos, los podemos usar cuando queramos haciendo referencia al nombre de la variable que le nombramos. Le asignamos el dato,a la derecha del simbolo "=".
+-Strings: Es un tipo de dato de JS, son letra o letras,o ninguna,siempre envueltas en un par de comillas "", que es lo que indica que se trata de un dato string.
+-Funciones (argumentos, return) : Las funciones son instrucciones que dictamos,para obtener un resultado,el cual se obtiene mediante return. Tiene opciones de agregarle argumentos como parametros,que son variables que tendran un valor al llamar a la funcion.
+Declaraciones if : Son condiciones que se evaluaran como true o false, dandonos la posibildiad de disenar caminos de acuerdo a las condiciones.
+Valores booleanos (true, false) : Son un tipo de dato de JS
