@@ -1,0 +1,6 @@
+-for : Instrucciones que se van a ejecutar cuantas veces indiquemos,de acuerdo a como queremos que se comporte.
+&&, ||, ! :
+
+&& lo usamos cuando queremos saber si 2 o mas evaluaciones devuelven el mismo o distinto valor booleano.
+|| Lo usamos si queremos saber si al menos 1 de 2 evaluaciones devuelve un valor booleano.
+!  Lo usamos cuando queremos hacer el valor booleano opuesto al que le pasamos.
