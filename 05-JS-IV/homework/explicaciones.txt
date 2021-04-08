@@ -1,0 +1,10 @@
+-Objetos: Los objetos son una forma de almacenar informacion en una variable. Son utiles cuadno tenemos muchas propiedades que pertenecen a una sola cosa,y esas propiedades tienen valores.
+-Propiedades: Son la descripcion de la propiedad del objeto,por ejemplo un auto tiene puertas,baul,color. Todas esas son propiedades del auto
+-Métodos: Son funcionalidades que puede tener un objeto,por ejemplo un auto podria tener un metodo que se llame acelerar,que cuadno se lo llame,su propiedad velocidad,pase a tener un valor de +50km/hr.
+-Bucle for in: Como los objetos no tienen indices numericos,JS creo un bucle for in,el cual recorre todas las claves (propiedades) del objeto:
+for (let clave in obj){
+    console.log(clave);
+    }
+    y si quisieramos acceder al valor de la clave,podemos hacerlo como: objeto[clave] dentro del bucle.
+
+-Notación de puntos vs notación de corchetes: Para obtener el valor de una clave del objeto,podemos acceder con notacion de punto (obj.prop) o,la notacion con corchetes [],la cual espera que el valor sea un string o un numero,tambien podemos pasarle una variable que sea string o numero.

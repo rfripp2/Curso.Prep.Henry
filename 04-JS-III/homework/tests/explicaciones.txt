@@ -1,0 +1,3 @@
+Los array son una manera de almacenar 1 o mas datos en una variable. Por ejemplo:
+let listaSupermercado = ['detergente','shampoo','pan'];
+Cada item del array se pueden encontrar con el indice,el cual empieza en 0,si queremos acceder al primer elemento,seria listaSupermercado[0];
