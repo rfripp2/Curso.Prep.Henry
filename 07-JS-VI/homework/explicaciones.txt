@@ -1,0 +1,1 @@
+Funciones Callback: Callbacks se le llama a las funciones que pasamos en una funcion como parametro, esa funcion luego sera usada en el bloque de codigo de la funcion principal.
