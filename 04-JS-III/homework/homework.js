@@ -26,11 +26,13 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  for (let i = 0; i++; i < array.length -1){
+  for (let i = 0; i < array.length;i++){
     array[i] += 1;
   }
   return array;
 }
+
+
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
@@ -78,6 +80,7 @@ function agregarNumeros(numeros) {
   for (let i = 0; i < numeros.length; i ++){
     result += numeros[i]
   }
+  return result;
 }
 
 
@@ -86,9 +89,12 @@ function promedioResultadosTest(resultadosTest) {
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
   let total = 0;
-  let result = total / resultadosTest.length;
+ 
   
-  resultadosTest.forEach(x => total += x);
+  for (let i = 0; i < resultadosTest.length; i++){
+    total += resultadosTest[i];
+  }
+  let result = total / resultadosTest.length;
   return result;
 }
 
@@ -140,7 +146,7 @@ function diaDeLaSemana(numeroDeDia) {
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
   let week = [7,1];
-  week.includes(numeroDeDia) ? "Es fin de semana" : "Es dia Laboral";
+  return week.includes(numeroDeDia) ? "Es fin de semana" : "Es dia Laboral";
   
 } 
 
@@ -180,14 +186,14 @@ function mesesDelAño(array) {
   let result = [];
   for(let i= 0; i<array.length; i++) {
     if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
-      nuevoArray.push(array[i]);
+      result.push(array[i]);
     }
   }
-  if(nuevoArray.length < 3) {
+  if(result.length < 3) {
     return "No se encontraron los meses pedidos";
   }
   else {
-      return nuevoArray;
+      return result;
   }
 
 }

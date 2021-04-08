@@ -13,6 +13,7 @@ function crearGato(nombre, edad) {
           return "Meow!"
     }
   }
+  return cat;
 }
 
 
@@ -59,6 +60,7 @@ function nuevoUsuario(nombre, email, password) {
     email : email,
     password : password
   }
+  return user;
 
 }
 
@@ -66,7 +68,12 @@ function tieneEmail(usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
-  return usuario.email !== undefined;
+  if (usuario.email){
+    return true;
+  }
+  else{
+    return false;
+  }
 }
 
 
@@ -123,10 +130,11 @@ function sumarLikesDeUsuario(usuario) {
   // Devuelve la suma
   // Tu código:
   let likesSum = 0;
-  for (let i = 0; i < usuario.post.length; i++){
+  for (let i = 0; i < usuario.posts.length; i++){
     likesSum += usuario.posts[i].likes;
 
   }
+  return likesSum;
 }
 
 function agregarMetodoCalculoDescuento(producto) {
